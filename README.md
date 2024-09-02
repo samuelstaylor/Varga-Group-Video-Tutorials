@@ -29,14 +29,30 @@ See descriptions for each video below:
 - **Process Summary**: 
   - To assign the initial position of the proton, create a copy of the ground state directory and edit the new **dft.inp** file.
   - Within the **dft.inp** file, increment the number of atoms by 1 and add one more row for the **initial position (x,y,z)** and **atomic number** of the proton.
-  - Create a directory for the TDDFT job runs. _copy an existing molecule's 'copy_runs' directory_
+  - Create a directory for the set TDDFT job runs by copying an existing molecule's 'copy_runs' directory (e.g. C2H2_copy_runs) and naming it accordingly.
+  - cd into the 'copy_runs directory'
   - Change the single run copy directory '<molecule-name>_copy' such that it corresponds to the molecule you are working with
     - In the **control.inp** file, have it access the gs_path for the ground state file including the proton
     - Also, update the "man_set_n_orbitals=" to the value of orbitals of the molecule not including the proton.
     - In the **job_script.sh** file change the job name
-  - Now, this single run copy directory can be copied and then varied for every run in the set of TDDFT calculations you want to perform.
+  - Now, this single run copy directory can be copied and then varied for every run in the set of TDDFT calculations you want to perform. This exists in the copyable set of TDDFT job runs directory, so this entire directory can be copied for everytime you want to run a set of simulations.
+  - Copy the directory for the set of TDDFT job runs for your molecule and name it something corresponding to the sent of simulations you want to run.
+  - cd into the newly copied directory. 
   - Copy the single run copy directory and give it a name corresponding to the run (e.g. C2H4_y_0.5 if you a have the proton colliding against C2H4 with a velocity of 0.5 A/fs along the y-axis)
   - cd into this directory, and create a **velocity.inp** file such that the first line in the file is the number of atoms and every subsequent lines is the velocity of each atom (A/fs) in the same order as in the **dft.inp** file.
   - In the **job_script.sh** file, change the job name
   - Submit the job: **sbatch job_script.sh**
 
+
+**Part 3 - TDDFT Proton and Molecule (Temperature) Calculation** Varga Group Tutorials Part 3 - TDDFT Proton and Molecule Collisions (With Temperature)
+
+[https://youtu.be/LehbPxC45uw?si=tNXneofiiCSGM2d9](url)
+
+- **Process Summary**: 
+  - Copy the "copy_runs directory" (e.g. C2H4_copy_runs) for the set of TDDFT simulations for your molecule and name it something correspond to the set of TDDFT simulations.
+  - cd into this copy_runs directory
+  - Copy the single run copy directory (e.g. C2H4_copy) and name it accordingly for the simulation you will run.
+  - Edit the control_boltzmann.inp file such that each variable is set as you would like for the simulation.
+  - Run the boltzmann program: "./boltzmann <temperature in K> <seed>"
+  - Make sure that the velocity.inp file is in the job directory that you would like to run.
+  - Submit the job: **sbatch job_script.sh**
