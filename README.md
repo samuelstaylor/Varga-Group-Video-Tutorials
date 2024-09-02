@@ -76,5 +76,17 @@ See descriptions for each video below:
 - **Process Summary**:
   - Copy the "copy_runs directory" (e.g. C2H4_copy_runs) for the set of TDDFT simulations for your molecule and name it something correspond to the set of TDDFT simulations.
   - cd into this copy_runs directory
-  - Set 
- 
+  - Import the **proton_projectile_grid.py** program.
+  - Make a directory to store all of the ground state calculations.
+  - Set the values in that program accordingly with the ground state calculations are performed in that new directory.
+  - Run the program in ground state mode
+  - Make sure that a **velocity.inp** is in the single run copy directory (this can be generated with the Boltzmann distribution). _This step was accidentally skipped in the video... see debugging in next video_
+  - Once the DFT ground state calculation has finished, run the program in TDDFT mode
+
+**Part 6 - Debugging Proton Projectile Grid**
+
+[https://youtu.be/xoD4U0ApGZA?si=5ZCL3AuWXFWL0yum](url)
+
+ - **Process Summary**:
+  - Read the monitor.out and error files to check for errors
+  - Need to add velocity.inp to the single run copy directory before running the python program in TDDFT mode.
