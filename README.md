@@ -48,7 +48,9 @@ See descriptions for each video below:
 
 [https://youtu.be/LehbPxC45uw?si=tNXneofiiCSGM2d9](https://youtu.be/LehbPxC45uw?si=tNXneofiiCSGM2d9)
 
-- **Process Summary**: 
+- Uses the _Boltzmann_ program to initialize the velocity of each atom to the Boltzmann distribution.
+- [https://github.com/samuelstaylor03/Boltzmann][https://github.com/samuelstaylor03/Boltzmann]
+- **Process Summary**:
   - Copy the "copy_runs directory" (e.g. C2H4_copy_runs) for the set of TDDFT simulations for your molecule and name it something correspond to the set of TDDFT simulations.
   - cd into this copy_runs directory
   - Copy the single run copy directory (e.g. C2H4_copy) and name it accordingly for the simulation you will run.
