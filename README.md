@@ -56,3 +56,25 @@ See descriptions for each video below:
   - Run the boltzmann program: "./boltzmann <temperature in K> <seed>"
   - Make sure that the velocity.inp file is in the job directory that you would like to run.
   - Submit the job: **sbatch job_script.sh**
+
+
+**Part 4 - Automating Job Submission for Boltzmann Distribution Based Atom Velocities with Random Seeds** Varga Group Tutorials Part 4 - Automating Job Submission: Boltzmann Atom Velocities w/ Random Seeds
+
+[https://youtu.be/VawHuCNkmRY](url)
+
+- **Process Summary**: 
+  - Copy the "copy_runs directory" (e.g. C2H4_copy_runs) for the set of TDDFT simulations for your molecule and name it something correspond to the set of TDDFT simulations.
+  - cd into this copy_runs directory
+  - Set the values of the **job_master.sh** file accordingly
+  - Run the executable: **job_master.sh**
+ 
+
+**Part 5 - Proton Initial Positions set According to a Grid to Collide with Molecule** Varga Group Tutorials Part 5 - Proton Initial Positions Grid Projectile into Molecule Simulations
+
+[https://youtu.be/IyISJAwt4Mw?si=wvbsfQuoyZrWUwxU](url)
+
+- **Process Summary**:
+  - Copy the "copy_runs directory" (e.g. C2H4_copy_runs) for the set of TDDFT simulations for your molecule and name it something correspond to the set of TDDFT simulations.
+  - cd into this copy_runs directory
+  - Set 
+ 
