@@ -4,7 +4,7 @@ How to set up VS-CODE for ssh into the cluster so that you don't have to do ever
 
 https://youtube.com/playlist?list=PLlJvCT0DQtXvL1J9yYt-dgqiRUJ5-pXZM&si=N7Ak43IwvalQgpLb
 
-UPDATE: try the latest version of the extension. if that doesn't work then revert to old version. Try this for the config file if you experience bugs. REPLACE EACH ' USERNAME ' WITH YOUR ACCOUNT NAME:
+UPDATE: try the latest version of the extension. if that doesn't work then revert to old version (~2022-2023). Try this for the config file if you experience bugs. REPLACE EACH ' USERNAME ' WITH YOUR ACCOUNT NAME:
 
 # kalman-all-series1
 
