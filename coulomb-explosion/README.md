@@ -10,7 +10,7 @@ See descriptions for each video below:
 
 **Part 0 (Preliminary) - TDDFT, code functionality, relevant theory** Part 0 - How the Code Works: Theory, TDDFT, Coulomb Explosion
 
-[https://youtu.be/X59CCGhUo6c?si=E2uN6b9mBx6BlnK5](https://youtu.be/X59CCGhUo6c?si=E2uN6b9mBx6BlnK5)
+[https://www.youtube.com/watch?v=X59CCGhUo6c&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=1]([https://youtu.be/X59CCGhUo6c?si=E2uN6b9mBx6BlnK5](https://www.youtube.com/watch?v=X59CCGhUo6c&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=1))
 
 See the slideshow PDF in this directory: [slides](coulomb-explosion\code-TDDFT.pdf).
 
@@ -18,7 +18,7 @@ Google Drive link: [https://docs.google.com/presentation/d/19HTjieT0qxCsgcAu84Cf
 
 **Part 1 - DFT Ground State Calculation** Varga Group Tutorials Part 1 - DFT Ground State Calculation
 
-[https://youtu.be/LZXg4nj4XD4?si=W-lRHDyLUrkaKqPi](https://youtu.be/LZXg4nj4XD4?si=W-lRHDyLUrkaKqPi)
+[https://www.youtube.com/watch?v=GX6hVJre1oQ&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=2](https://www.youtube.com/watch?v=GX6hVJre1oQ&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=2)
 
 - **Process Summary**:
   - You need 3 files for the groundstate calculation: **control.inp, dft.inp, job_script.sh**
@@ -31,7 +31,7 @@ Google Drive link: [https://docs.google.com/presentation/d/19HTjieT0qxCsgcAu84Cf
 
 **Part 2 - TDDFT Molecule in E-field Calculation** Varga Group Tutorials Part 2 - TDDFT Molecule in E-field Calculation
 
-[https://youtu.be/gTjWhoua7sI?si=UwlCIzlDoC4W3h6C](https://youtu.be/gTjWhoua7sI?si=UwlCIzlDoC4W3h6C)
+[https://www.youtube.com/watch?v=1A5wG7g2dOc&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=3](https://www.youtube.com/watch?v=1A5wG7g2dOc&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=3)
 
 - **Process Summary**:
 
@@ -50,9 +50,9 @@ Google Drive link: [https://docs.google.com/presentation/d/19HTjieT0qxCsgcAu84Cf
   - In the **job_script.sh** file, change the job name
   - Submit the job: **sbatch job_script.sh**
 
-**Part 4 - Automating Job Submission with Random Seeds** Varga Group Tutorials Part 4 - Automating Job Submission: Boltzmann Atom Velocities w/ Random Seeds
+**Part 3 - Automating Job Submission with Random Seeds** Varga Group Tutorials Part 4 - Automating Job Submission: Boltzmann Atom Velocities w/ Random Seeds
 
-[https://youtu.be/VawHuCNkmRY](https://youtu.be/VawHuCNkmRY)
+[https://www.youtube.com/watch?v=mDvGLBYZH1g&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=4](https://www.youtube.com/watch?v=mDvGLBYZH1g&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=4)
 
 - **Process Summary**:
   - Copy the "copy_runs directory" (e.g. C2H4_copy_runs) for the set of TDDFT simulations for your molecule and name it something correspond to the set of TDDFT simulations.
@@ -60,9 +60,9 @@ Google Drive link: [https://docs.google.com/presentation/d/19HTjieT0qxCsgcAu84Cf
   - Set the values of the **job_master.sh** file accordingly
   - Run the executable: **job_master.sh**
 
-**Part 5 - Finale: Visualizing Output, Creating Figures, Writing Papers, General Advice** Varga Group Tutorials Part 5 - Proton Initial Positions Grid Projectile into Molecule Simulations
+**Part 4 - Finale: Visualizing Output, Creating Figures, Writing Papers, General Advice** Varga Group Tutorials Part 5 - Proton Initial Positions Grid Projectile into Molecule Simulations
 
-[https://youtu.be/IyISJAwt4Mw?si=wvbsfQuoyZrWUwxU](https://youtu.be/IyISJAwt4Mw?si=wvbsfQuoyZrWUwxU)
+[https://www.youtube.com/watch?v=Y3Enk_8G-kQ&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=5](https://www.youtube.com/watch?v=Y3Enk_8G-kQ&list=PLlJvCT0DQtXtEYAiphyCyMYngGS5Olvf8&index=5)
 
 - **Process Summary**:
   - Several visualization scripts can be found here: https://github.com/samuelstaylor/TDDFT-output-and-scripts
